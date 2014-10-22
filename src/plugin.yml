@@ -1,0 +1,7 @@
+name: SQL
+main: me.ES359.SQL.Main
+version: 1.0
+
+commands:
+  world:
+    description: Main command for this plugin.

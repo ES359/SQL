@@ -28,6 +28,15 @@ public class Main extends JavaPlugin implements Listener{
 
     private Functions f;
 
+    public Main() {}
+
+    static public Main instance = new Main();
+
+    static public Main getInstance() {
+        return instance;
+
+    }
+
 
     public void onEnable() {
         sql = new Core(getConfig().getString("Database.host"), getConfig().getString("Database.username"), getConfig().getString("Database.password"), getConfig().getString("Database.database"));

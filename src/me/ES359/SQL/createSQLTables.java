@@ -5,6 +5,7 @@ package me.ES359.SQL;
  */
 public interface createSQLTables {
 
-        
+
+       public void createAnSQLTable(boolean data) ;
 
 }

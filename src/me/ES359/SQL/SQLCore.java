@@ -5,26 +5,15 @@ import java.sql.SQLException;
 /**
  * Created by ES359 on 10/22/14.
  */
-public class SQLCore implements createSQLTables{
+public class SQLCore{
 
-    Main m = Main.getInstance();
 
-    @Override
-    public void createAnSQLTable(boolean data) {
 
-        if(data) {
-            try {
-                m.sql.c.prepareStatement("CREATE TABLE IF NOT EXISTS ");
-            }catch (SQLException e) {
-                e.printStackTrace();
-            }
-        }
-    }
 }
 
 //http://forums.bukkit.org/threads/tutorial-extreme-beyond-reflection-asm-replacing-loaded-classes.99376/
 
-    /**
+        /**
      *  public void createTableChat(boolean chat) {
 
      if(chat) {
@@ -59,5 +48,5 @@ public class SQLCore implements createSQLTables{
      }
      }
      }
-     */
 
+    */
